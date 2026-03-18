@@ -17,10 +17,11 @@ A Rust crate that parses Unity IL2CPP binary assets extracted from the cartridge
 
 ### kanken-browser
 A desktop question browser built with [iced](https://github.com/iced-rs/iced) 0.14. Browse all 75,848 questions across 12 kyu levels and 120 question fields. Target words are highlighted in red.
+![Browser](media/browser.png)
 
 ### kanken_anki
-An Anki addon that pre-fills flashcard fields directly from the question bank. Supports 読み and 書き取り. Auto-advances after adding a card, and auto-copies sentence translations when consecutive questions share the same sentence.
-
+An Anki addon that pre-fills flashcard fields directly from the question bank. Auto-advances after adding a card, and auto-copies sentence translations when consecutive questions share the same sentence.
+![Anki](media/anki.gif)
 ## Data extraction
 
 The following files are required to produce `combined_fields.json`:
