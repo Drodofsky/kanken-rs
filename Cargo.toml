@@ -1,0 +1,3 @@
+[workspace]
+members = ["kanken-browser","parser"]
+resolver = "3"
